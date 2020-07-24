@@ -22,7 +22,7 @@
       #### About OTP 
       - Currently Only works on Indian Numbers
       - To send OTP Queue must be running. [Laravel Queue](https://laravel.com/docs/7.x/queues)
-      - To disable OTP Verification simply navigate to your DB and set `Replace default value of admins.where_am_i = 0`
+      - To disable OTP Verification simply navigate to your DB and Set default value of  `admins.where_am_i = 0`
    - Modify the following variables in ```.env``` file according to your configuration
  ```env
  #For Website Header
