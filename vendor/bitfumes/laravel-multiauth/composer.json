@@ -1,0 +1,51 @@
+{
+  "name": "bitfumes/laravel-multiauth",
+  "description": "Laravel Multiauth package",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel multiauth",
+    "multiauth",
+    "bitfumes",
+    "admin auth",
+    "multi auth",
+    "laravel permissions",
+    "laravel roles permissions",
+    "laravel acl"
+  ],
+  "authors": [
+    {
+      "name": "sarthaksavvy",
+      "email": "sarthak@bitfumes.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "laravel/ui": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5",
+    "mockery/mockery": "^1.3.1",
+    "orchestra/testbench": "^5.0",
+    "orchestra/database": "^5.0",
+    "illuminate/support": "7.0",
+    "fzaninotto/faker": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bitfumes\\Multiauth\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bitfumes\\Multiauth\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bitfumes\\Multiauth\\MultiauthServiceProvider"
+      ]
+    }
+  }
+}
