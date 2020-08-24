@@ -21,7 +21,7 @@
    - Get SMS API from [Pingsms.in](https://github.com/sa1if3/Quickstart-guide-on-sending-SMS-using-API)
       #### About OTP & Application Number
       - Currently Only works on Indian Numbers
-      - To send OTP Queue & Application Number must be running. [Laravel Queue](https://laravel.com/docs/7.x/queues)
+      - To send OTP & Generate Application Number the Queue must be running. [Laravel Queue](https://laravel.com/docs/7.x/queues)
       - To disable OTP Verification simply navigate to your DB and Set default value of  `students.where_am_i = 0`
    - Modify the following variables in ```.env``` file according to your configuration
  ```env
