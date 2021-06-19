@@ -13,7 +13,7 @@
 1. Admin
     - Login
     - Dashboard
-    - User, Eductaion Board, Caste, Religion, Course, Student CRUD (Create, read, update and delete)
+    - User, Eductaion Board, Caste, Religion, Course, Student CRUD (create, read, update and delete)
     - Feedback View
 ## Instructions
    - Import ```online-admission.sql``` to your DB. This is a much faster alternative to ```php artisan migrate``` and it additionally comes preloaded with seed values.
